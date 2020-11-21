@@ -12,6 +12,9 @@
 
         $transaccion->eliminarDatos($consultaSQL);
 
+        header("location:listadoProductos.php");
+
+
 
 
 ?>

@@ -6,8 +6,50 @@
     <title>LISTADO DE PRODUCTOS </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#189AB4">
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" style="color: white;">TiendaWeb</a>
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" > 
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: white;" href="http://localhost/Tiendaweb1/tiendaweb1.php" > TiendaWeb1 <span class="sr-only">(current)</span></a>        
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <img src="icon/icons8-home-64.png" height="20">
+          <a class="nav-link" style="color: bisque;" href="#Inicio" > Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <img src="icon/icons8-shopping-cart-64.png" height="20">
+          <a class="nav-link" style="color: bisque;"  href="#Catalogo">Catalogo</a>
+        </li>
+        <li class="nav-item">
+          <img src="icon/icons8-user-male-64 (1).png" height="20">
+          <a class="nav-link" style="color: bisque;" href="#Quienes somos">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <img src="icon/icons8-phone-64.png" height="20">
+          <a class="nav-link" style="color: bisque;" href="#Contactenos">Contactenos</a>
+        </li>
+        <li class="nav-item">
+          <img src="icon/icons8-secured-letter-64.png" height="20">
+          <a class="nav-link" style="color: bisque;" href="#Sugerencias">Sugerencias</a>
+        </li>
+      
+      </ul>
+    </div>
+  </nav>
 <?php 
 
     include("Basedatos.php");{
